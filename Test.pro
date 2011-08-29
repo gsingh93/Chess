@@ -1,34 +1,39 @@
 HEADERS += \
-    square.h \
-    board.h \
-    piece.h \
-    pawn.h \
-    rook.h \
-    knight.h \
-    bishop.h \
-    queen.h \
-    king.h
+    headers/square.h \
+    headers/rook.h \
+    headers/queen.h \
+    headers/piece.h \
+    headers/pawn.h \
+    headers/knight.h \
+    headers/king.h \
+    headers/board.h \
+    headers/bishop.h
 
 SOURCES += \
-    main.cpp \
-    square.cpp \
-    board.cpp \
-    piece.cpp \
-    pawn.cpp \
-    rook.cpp \
-    knight.cpp \
-    bishop.cpp \
-    queen.cpp \
-    king.cpp
+    source/square.cpp \
+    source/rook.cpp \
+    source/queen.cpp \
+    source/piece.cpp \
+    source/pawn.cpp \
+    source/main.cpp \
+    source/knight.cpp \
+    source/king.cpp \
+    source/board.cpp \
+    source/bishop.cpp
 
 OTHER_FILES += \
-    whitepawn.png \
-    ../../../Pictures/whitebishop.png \
-    whitequeen.png \
-    whitepawn.png \
-    whiteknight.png \
-    whiteking.png \
-    whitebishop.png
+    images/whiterook.png \
+    images/whitequeen.png \
+    images/whitepawn.png \
+    images/whiteknight.png \
+    images/whiteking.png \
+    images/whitebishop.png \
+    images/blackrook.png \
+    images/blackqueen.png \
+    images/blackpawn.png \
+    images/blackknight.png \
+    images/blackking.png \
+    images/blackbishop.png
 
 RESOURCES += \
     Resources.qrc

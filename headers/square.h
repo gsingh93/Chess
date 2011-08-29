@@ -2,7 +2,7 @@
 #define SQUARE_H
 
 #include <QWidget>
-//#include "piece.h"
+//#include "headers/piece.h"
 
 class Square : public QWidget
 {

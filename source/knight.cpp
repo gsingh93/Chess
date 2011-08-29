@@ -1,4 +1,4 @@
-#include "knight.h"
+#include "headers/knight.h"
 #include <QPainter>
 
 Knight::Knight(string color, QWidget *parent) :

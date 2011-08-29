@@ -1,11 +1,11 @@
 #include <qtgui>
-#include "board.h"
-#include "pawn.h"
-#include "knight.h"
-#include "bishop.h"
-#include "rook.h"
-#include "king.h"
-#include "queen.h"
+#include "headers/board.h"
+#include "headers/pawn.h"
+#include "headers/knight.h"
+#include "headers/bishop.h"
+#include "headers/rook.h"
+#include "headers/king.h"
+#include "headers/queen.h"
 
 int main(int argc, char *argv[])
 {

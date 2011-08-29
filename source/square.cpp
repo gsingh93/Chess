@@ -1,4 +1,4 @@
-#include "square.h"
+#include "headers/square.h"
 #include <QtGui>
 
 Square::Square(QWidget *parent, int color, int file, char rank) : QWidget(parent)

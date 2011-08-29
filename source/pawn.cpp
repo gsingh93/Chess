@@ -1,4 +1,4 @@
-#include "pawn.h"
+#include "headers/pawn.h"
 #include <QPainter>
 
 Pawn::Pawn(string color, QWidget *parent) :

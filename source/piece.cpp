@@ -1,4 +1,4 @@
-#include "piece.h"
+#include "headers/piece.h"
 #include <QPainter>
 #include <QMouseEvent>
 using namespace std;

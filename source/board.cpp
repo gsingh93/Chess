@@ -1,11 +1,11 @@
-#include "board.h"
-#include "square.h"
-#include "pawn.h"
-#include "knight.h"
-#include "bishop.h"
-#include "rook.h"
-#include "queen.h"
-#include "king.h"
+#include "headers/board.h"
+#include "headers/square.h"
+#include "headers/pawn.h"
+#include "headers/knight.h"
+#include "headers/bishop.h"
+#include "headers/rook.h"
+#include "headers/queen.h"
+#include "headers/king.h"
 
 Board::Board(QWidget *parent) : QWidget(parent)
 {

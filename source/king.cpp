@@ -1,4 +1,4 @@
-#include "king.h"
+#include "headers/king.h"
 #include <QPainter>
 
 King::King(string color, QWidget *parent) :

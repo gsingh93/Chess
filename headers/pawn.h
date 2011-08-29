@@ -1,7 +1,7 @@
 #ifndef PAWN_H
 #define PAWN_H
 
-#include "piece.h"
+#include "headers/piece.h"
 #include <string>
 using namespace std;
 

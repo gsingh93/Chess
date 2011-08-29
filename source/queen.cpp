@@ -1,4 +1,4 @@
-#include "queen.h"
+#include "headers/queen.h"
 #include <QPainter>
 
 Queen::Queen(string color, QWidget *parent) :
