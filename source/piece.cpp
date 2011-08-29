@@ -17,7 +17,7 @@ Piece::Piece(string color, string piece, QWidget *parent) :
 
 void Piece::paintEvent(QPaintEvent *)
 {
-    string image = ":/" + color + piece + ".png";
+    string image = ":/images/" + color + piece + ".png";
     pixmap.load(image.c_str());
 
     QPainter paint(this);
@@ -26,7 +26,7 @@ void Piece::paintEvent(QPaintEvent *)
 
 void Piece::setPosition(int file, int rank)
 {
-    pixmap.load(":/whitepawn.png");
+    pixmap.load(":/images/whitepawn.png");
     QImage image = pixmap.toImage();
     x = (file-1)*50 + 25 - image.width()/2;
     y = (rank-1)*50 + 25 - image.height()/2;
