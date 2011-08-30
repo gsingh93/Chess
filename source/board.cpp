@@ -12,6 +12,7 @@ Board::Board(QWidget *parent) : QWidget(parent)
     int color = 1;
     sqrVector.resize(8);
     layout = new QGridLayout;
+
     for(int i = 1; i <= 8; i++)
     {
 	sqrVector[i-1].resize(8);
@@ -24,7 +25,8 @@ Board::Board(QWidget *parent) : QWidget(parent)
 	}
 	color *= -1;
 	pawn[i-1] = new Pawn("white");
-	layout->addWidget(pawn[i-1], 1, 1, 8, 8);
+	//layout->addWidget(pawn[i-1], 1, 1, 8, 8);
+
 
 	bpawn[i-1] = new Pawn("black");
 	layout->addWidget(bpawn[i-1], 1, 1, 8, 8);

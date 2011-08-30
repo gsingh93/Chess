@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QVector>
 #include <QGridLayout>
+
 class Square;
 
 class Pawn;

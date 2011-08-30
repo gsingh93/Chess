@@ -1,4 +1,6 @@
-#include <qtgui>
+#include <QtGui>
+#include <QGraphicsScene>
+#include <QGraphicsView>
 #include "headers/board.h"
 #include "headers/pawn.h"
 #include "headers/knight.h"
@@ -10,6 +12,8 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
+    QGraphicsScene *scene = new QGraphicsScene();
+    QGraphicsView *view = new QGraphicsView();
     Board board;
     for(int i = 0; i <= 7; i++)
     {
@@ -34,6 +38,14 @@ int main(int argc, char *argv[])
     board.bqueen->setPosition(4, 1);
     board.bking->setPosition(5, 1);
 
-    board.show();
+    //board.show();
+
+    scene->addWidget(&board);
+    scene->addWidget(board.pawn[0]);
+
+    scene->addWidget(board.pawn[4]);
+
+    view->setScene(scene);
+    view->show();
     return app.exec();
 }
