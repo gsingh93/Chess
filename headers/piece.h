@@ -15,7 +15,7 @@ public:
 protected:
     void paintEvent(QPaintEvent *);
     void mouseMoveEvent(QMouseEvent *);
-    void mousePressEvent(QMouseEvent *);
+    //    void mousePressEvent(QMouseEvent *);
     int rank;
     int file;
     int x;
